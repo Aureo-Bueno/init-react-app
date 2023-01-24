@@ -4,6 +4,7 @@ import Description from './components/Description';
 import Name from './components/Name';
 import Event from './components/Events';
 import Form from './components/Form';
+import Conditional from './components/Conditional';
 
 function App() {
   const myName = 'Aureo Bueno';
@@ -17,6 +18,8 @@ function App() {
       <Description />
       <Name name={myName} />
       <Event number={9} />
+      <h3>Renderizacao Condicional</h3>
+      <Conditional />
     </div>
   );
 }
